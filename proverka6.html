@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Updates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Обновления игр</h1>
+        <p>Выберите, чтобы получить обновления:</p>
+        <button class="button" id="game1">Обновления для Counter-Strike 2</button>
+        <button class="button" id="game2">Обновления для Dota 2</button>
+        <button class="button" id="game3">Обновления для PUBG</button>
+    </div>
+
+    <script>
+        // Здесь вы можете добавить функциональность для кнопок
+        document.getElementById('game1').addEventListener('click', function() {
+            alert('Обновления для Counter-Strike 2');
+        });
+
+        document.getElementById('game2').addEventListener('click', function() {
+            alert('Обновления для Dota 2');
+        });
+
+        document.getElementById('game3').addEventListener('click', function() {
+            alert('Обновления для PUBG');
+        });
+    </script>
+    <script src="laba6.js"></script>
+    <link rel="stylesheet" href="laba6.css">    
+</body>
+</html>
